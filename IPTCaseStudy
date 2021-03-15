@@ -19,5 +19,21 @@ public class IPT2CaseStudy{
         System.out.print("Your Address: ");
         String adds = gc.nextLine();
         group.getAdd(adds);
+
+	System.out.println("--------------------");
+	System.out.println("--------------------");
+	System.out.println("MEMBER/S");
+	
+	System.out.print("Name: ");
+        String nym = gc.nextLine();
+        group.getName(nym);
+
+	System.out.print("Course: ");
+        String course = gc.nextLine();
+        group.getCourse(course);
+        
+	System.out.print("Subject: ");
+        String subj = gc.nextLine();
+        group.getSubj(subj);
         } 
 }
