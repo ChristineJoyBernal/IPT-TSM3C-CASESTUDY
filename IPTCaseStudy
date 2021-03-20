@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class IPT2CaseStudy{
+    public static void main(String[] args){
+        Scanner gc = new Scanner (System.in);
+        
+        IptGroup group = new IptGroup();
+        
+	    System.out.println("LEADER");
+
+        System.out.print("Your Name: ");
+        String Leadname = gc.nextLine();
+        group.getLeadname(Leadname);
+        
+        System.out.print("Your Age: ");
+        int age = gc.nextInt();
+        group.getAge(age);
+        
+        System.out.print("Your Address: ");
+        String adds = gc.nextLine();
+        group.getAdd(adds);
+        } 
+}
